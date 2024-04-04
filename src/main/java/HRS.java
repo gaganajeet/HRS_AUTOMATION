@@ -20,7 +20,6 @@ public class HRS {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.id("onetrust-accept-btn-handler")).click();
 
-        // Displaying alert message
 
         WebElement location=driver.findElement(By.xpath("//span[@class='DestinationSearchOpener_destinationFormat__hwuCN']"));
         location.click();
@@ -39,7 +38,7 @@ public class HRS {
         hotels.click();
 
         Thread.sleep(3000);
-        //There was no filter to search on availability so i have change it to price
+        //There was no filter to search on availability of hotel so i have applied filter as price
         WebElement price=driver.findElement(By.xpath("//input[@id='priceInput']"));
         price.sendKeys("100");
         price.sendKeys(Keys.ENTER);
