@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f1378b0-1515-4413-a2b2-ebb8c24bf8f7" name="Changes" comment="ADDED MAIN JAVA FILE">
+    <list default="true" id="6f1378b0-1515-4413-a2b2-ebb8c24bf8f7" name="Changes" comment="updated comment">
+      <change afterPath="$PROJECT_DIR$/Test plan" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HRS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HRS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,44 +40,46 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2edDL1G3xIcADD3p1rSLYhWwNHg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HRSBookingAutomation.executor": "Run",
-    "Application.HRS_AUTOMATION.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.HRS_AUTOMATION [:HRSBookingAutomation.main()].executor": "Run",
-    "Gradle.HRS_AUTOMATION [:HRS_AUTOMATION.main()].executor": "Run",
-    "Gradle.HRS_AUTOMATION [:PG1.main()].executor": "Run",
-    "Gradle.HRS_AUTOMATION [:Third.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Abc/Desktop/HRS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Abc/IdeaProjects/HRS_AUTOMATION/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HRSBookingAutomation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HRS_AUTOMATION.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HRS_AUTOMATION [:HRSBookingAutomation.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HRS_AUTOMATION [:HRS_AUTOMATION.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HRS_AUTOMATION [:PG1.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HRS_AUTOMATION [:Third.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Abc/Desktop/HRS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Abc/IdeaProjects/HRS_AUTOMATION/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Abc\IdeaProjects\HRS_AUTOMATION\src\main\resources" />
@@ -97,11 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.HRS_AUTOMATION" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SeleniumInternalSettingsState">
     <option name="lastUrl" value="https://www.hrs.com/" />
@@ -131,7 +128,8 @@
       <workItem from="1712248128548" duration="671000" />
       <workItem from="1712248811863" duration="154000" />
       <workItem from="1712249060734" duration="600000" />
-      <workItem from="1712250246311" duration="607000" />
+      <workItem from="1712250246311" duration="1626000" />
+      <workItem from="1712300647748" duration="1829000" />
     </task>
     <task id="LOCAL-00001" summary="ADDED MAIN JAVA FILE">
       <option name="closed" value="true" />
@@ -141,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712250630949</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated comment">
+      <option name="closed" value="true" />
+      <created>1712250876964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712250876964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADDED MAIN JAVA FILE" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED MAIN JAVA FILE" />
+    <MESSAGE value="updated comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated comment" />
   </component>
 </project>

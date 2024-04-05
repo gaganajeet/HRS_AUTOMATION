@@ -1,0 +1,124 @@
+1.Objective:
+
+Ensure that the new feature allowing users to filter out hotels with low availability is implemented correctly and functions as expected.
+
+2.Scope:
+
+The test plan will focus specifically on testing the functionality related to filtering out hotels based on availability using the Booking API.
+
+
+2.1 In Scope:
+
+Filtering Functionality:
+
+Testing the ability of users to filter hotels based on availability levels (e.g., high, medium, low).
+Ensuring that the filter options are displayed correctly and are accessible to users.
+
+Accuracy of Filtering:
+Verifying that hotels with the specified availability level are accurately filtered out from the search results.
+Testing the precision of filtering under various availability scenarios.
+
+Integration with Booking API:
+Ensuring seamless integration of the new filtering feature with the existing Booking API functionality.
+Testing compatibility with different API endpoints and parameters.
+
+2.2 Out of Scope:
+
+Booking Process:
+The actual booking process itself, including selecting dates, making reservations, and payment transactions, is out of scope for this feature.
+
+Hotel Inventory Management:
+Managing hotel inventory or availability data at the backend system level is not within the scope of this feature.
+
+3. Testing Environment:
+
+Use a dedicated testing environment that mirrors the production environment as closely as possible to conduct the tests without affecting the live system.
+
+4.Test Cases:
+
+  a. Positive Test Cases:
+
+  Verify that hotels with high availability are displayed when the user selects the appropriate filter option.
+  Test filtering hotels by different levels of availability (e.g., high, medium, low) to ensure accuracy.
+  Confirm that hotels with low availability are excluded from search results when the corresponding filter is applied.
+
+
+  b. Negative Test Cases:
+  Test the system's response when no hotels meet the selected availability criteria.
+  Verify error handling when invalid filter parameters are provided.
+  Ensure that the system gracefully handles unexpected errors or exceptions during filtering.
+
+5.Test Data:
+Prepare a variety of test data sets with different hotel availability scenarios to cover a range of testing scenarios effectively.
+Include data with high, medium, and low availability for various hotels to validate the filtering mechanism under different conditions.
+
+6.Test Execution:
+  Execute each test case systematically, recording the results and any deviations from expected behavior.
+  Use automated testing tools where possible to streamline the testing process and improve efficiency.
+
+7.Reporting:
+  Document test results, including any issues encountered during testing and their resolutions.
+  Provide clear and concise feedback on the performance and functionality of the new feature.
+
+8.Roles and Responsibility:
+
+8.1 Test Manager:
+
+   Oversees the entire testing effort and is responsible for planning, organizing, and coordinating testing activities.
+   Defines testing strategies, objectives, and timelines in alignment with project goals.
+   Allocates resources, assigns tasks, and monitors progress to ensure timely and effective test execution.
+8.2 Test Lead:
+
+    Assists the test manager in planning and coordinating testing activities.
+    Leads the testing team, assigns tasks, and ensures that testing objectives are met.
+8.3 Test Analyst/Test Engineer:
+
+    Develops test plans, test cases, and test data sets based on project requirements and specifications.
+
+8.4 Automation Engineer:
+
+    Designs, develops, and maintains automated test scripts to streamline testing processes and improve efficiency.
+8.5 DevOps Engineer:
+
+    Manages test environments, including setup, configuration, and maintenance of testing infrastructure.
+    Implements continuous integration and continuous deployment (CI/CD) pipelines to automate testing and deployment processes.
+
+
+9 Test Deliverables :
+
+9.1 Test Plan:
+Document outlining the scope, objectives, approach, resources, schedule, and responsibilities for testing the filtering feature.
+Includes details on test strategies, test methodologies, test environments, and test execution plans.
+
+9.2 Test Cases:
+Detailed test cases covering positive, negative, boundary, and integration scenarios for testing the filtering feature.
+Each test case includes a description, steps to execute, expected results, actual results, and any necessary preconditions or test data.
+
+9.3 Test Data:
+Test data sets used for validating the filtering feature, including hotels with varying availability levels and corresponding expected outcomes.
+Test data may include sample hotel listings, availability statuses, and filter parameters.
+
+9.4 Defect Reports:
+Document listing all defects identified during testing of the filtering feature.
+Includes defect details such as title, description, steps to reproduce, severity, priority, status, assignee, and resolution.
+
+9.5 Test Execution Logs:
+Records of test execution activities, including test case execution status, test results, observations, and any deviations from expected behavior.
+Provides a chronological record of testing activities for traceability and audit purposes.
+
+9.6Test Summary Report:
+Comprehensive report summarizing the testing effort and outcomes for the filtering feature.
+Includes an overview of test coverage, test results, defect metrics, identified risks, recommendations, and any lessons learned.
+Provides stakeholders with insights into the quality and readiness of the feature for production release.
+
+9.7 Performance Test Results:
+Results of performance testing conducted to evaluate the filtering feature's responsiveness, throughput, and resource utilization under different load conditions.
+Includes performance metrics, such as response times, transaction rates, and error rates, along with analysis and recommendations for improvement.
+
+9.8 User Acceptance Test (UAT) Feedback:
+Feedback and validation results from end-users or stakeholders participating in user acceptance testing of the filtering feature.
+Includes user feedback, suggestions for improvements, and overall assessment of the feature's usability and effectiveness.
+
+9.9 Documentation Updates:
+Updates to relevant documentation, such as user manuals, help guides, or API documentation, reflecting any changes or enhancements related to the filtering feature.
+Ensures that users have access to accurate and up-to-date information about the feature's functionality and usage.
